@@ -35,7 +35,8 @@ export default function App() {
 }
 
 function EditorApp() {
-  const [selectedDocumentId, setSelectedDocumentId] = useState<Id<"documents"> | null>(null);
+  const [selectedDocumentId, setSelectedDocumentId] =
+    useState<Id<"documents"> | null>(null);
   const loggedInUser = useQuery(api.auth.loggedInUser);
 
   if (loggedInUser === undefined) {
@@ -48,7 +49,7 @@ function EditorApp() {
 
   return (
     <>
-      <Sidebar 
+      <Sidebar
         selectedDocumentId={selectedDocumentId}
         onSelectDocument={setSelectedDocumentId}
       />
@@ -76,7 +77,8 @@ function EditorApp() {
                   Welcome to your editor
                 </h2>
                 <p className="text-gray-600">
-                  Select a document from the sidebar or create a new one to get started
+                  Select a document from the sidebar or create a new one to get
+                  started
                 </p>
               </div>
             </div>
