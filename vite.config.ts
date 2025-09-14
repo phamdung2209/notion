@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/notion/",
   plugins: [
     react(),
     // The code below enables dev tools like taking screenshots of your site
