@@ -19,7 +19,7 @@ export default function App() {
           <div className="w-full max-w-md mx-auto p-8">
             <div className="text-center mb-8">
               <h1 className="text-4xl font-bold text-gray-900 mb-2">
-                Collaborative Editor
+                Notion Editor
               </h1>
               <p className="text-gray-600">
                 Sign in to start creating and editing documents
@@ -57,7 +57,7 @@ function EditorApp() {
         <header className="bg-white border-b border-gray-200 px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <h1 className="text-xl font-semibold text-gray-900">
-              Collaborative Editor
+              Notion Editor
             </h1>
           </div>
           <div className="flex items-center gap-4">
