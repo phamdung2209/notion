@@ -11,7 +11,7 @@
     "build": "vite build",
     "lint": "tsc -p convex -noEmit --pretty false && tsc -p . -noEmit --pretty false && convex dev --once && vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -c notion.dungpv.id.vn"
   },
   "dependencies": {
     "@blocknote/core": "^0.37.0",
